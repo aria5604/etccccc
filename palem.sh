@@ -1,7 +1,7 @@
 #!/bin/bash
 i=0;
 algo="";
-configFile="config_cmdline.ini"
+configFile="ltyu.ini"
 > $configFile;
 while [[ "$#" -gt 0 ]]; do
   if echo "$1" | grep -q "algo"; then
